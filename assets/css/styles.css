@@ -33,11 +33,12 @@ html,body{height:100%;}
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  color:var(--brown-1);
+  color:#000;
   background:
-    radial-gradient(900px 420px at 15% 0%, rgba(255,111,179,.30) 0%, rgba(255,111,179,0) 55%),
-    radial-gradient(700px 350px at 90% 10%, rgba(255,154,208,.24) 0%, rgba(255,154,208,0) 50%),
-    linear-gradient(180deg, #ffd1e8, #ff9ccf 65%, #ffbfe0);
+    radial-gradient(900px 420px at 15% 0%, rgba(180,220,255,.55) 0%, rgba(180,220,255,0) 55%),
+    radial-gradient(700px 350px at 90% 10%, rgba(140,180,255,.40) 0%, rgba(140,180,255,0) 50%),
+    linear-gradient(180deg, #d9ecff, #a8d1ff 55%, #bfe3ff);
+
 
 
   line-height:1.5;
@@ -156,23 +157,24 @@ img{
   width:200px;
   border-radius:14px;
   border:1px solid rgba(215,180,90,.25);
-  background:rgba(0,0,0,.15);
+  background:rgba(255,255,255,.45);
   padding:10px;
-  box-shadow:0 20px 50px rgba(0,0,0,.35);
+  box-shadow:0 20px 50px rgba(0,0,0,.25);
   text-decoration:none;
-  color:var(--text);
+  color:#000;
 }
 
 .product-card img{
   width:180px;
-  height:130px;
+  height:210px;
   object-fit:cover;
   border-radius:12px;
-  border:1px solid rgba(215,180,90,.25);
+  border:1px solid rgba(40,90,180,.25);
 }
 
+
 .category-row .product-card{width:240px;}
-.category-row .product-card img{width:210px; height:140px;}
+.category-row .product-card img{width:210px; height:240px; object-fit:cover;}
 
 .product-card p{
   margin:.5rem 0 0;
