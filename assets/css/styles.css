@@ -179,7 +179,16 @@ img{
 .product-card p{
   margin:.5rem 0 0;
   font-weight:750;
+  color:#000;
 }
+
+.product-card:hover{
+  background:rgba(180,220,255,.55);
+  border-color:rgba(80,140,255,.55);
+  transform: translateY(-2px);
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
 
 /* Gallery/service headings */
 section > img{margin:10px 0 16px;}
