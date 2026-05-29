@@ -248,8 +248,20 @@ iframe{
 @media (max-width:520px){
   section{margin:14px 10px; padding:14px;}
   footer{margin:12px 10px; padding:12px 14px;}
+
+  /* Make page content feel bigger on small screens */
+  h1{font-size:2rem;}
+  h2{font-size:1.55rem;}
+  p, label{font-size:1.05rem;}
+  li{font-size:1.05rem;}
+
+  /* Bigger gallery/contact/booking text & buttons */
   .navbar{padding:10px 10px; gap:10px;}
-  .navbar a{padding:9px 12px;}
+  .navbar a{padding:10px 14px; font-size:1.05rem;}
+  form{padding:16px;}
+  input,select,textarea{padding:14px 12px;}
+  button{padding:14px 18px; font-size:1.05rem;}
+
   iframe{height:240px;}
 }
 
