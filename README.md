@@ -67,4 +67,3 @@ Because this is a static website:
 - `assets/images/` (category images)
 - `assets/fonts/` (present in repo)
 - `assets/js/` (if used by any page)
-
